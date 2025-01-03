@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="tab-container">
+        <div class="tab-header-cont">
+        <ng-container *ngFor="let tab of tabs">
+            <div class="tab-header"> {{tab.title}} </div>
+        </ng-container>
+        </div>
+        <div class="tab-content-container">
+            <div #tabContentContainer></div>
+        </div>
+    </div>
+</div>
